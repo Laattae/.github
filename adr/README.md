@@ -19,8 +19,8 @@
 | [0011](0011-shared-config-repo.md) | 팀 공유 설정과 키는 비공개 environment 레포에 둔다 | 승인 | 전체 |
 | [0012](0012-tick-source.md) | 실시간 체결 원천: 시뮬레이터로 시작하고 KIS를 붙인다 | 제안 | lattae-alert |
 | [0013](0013-local-stack-durability.md) | 로컬 스택은 데이터를 볼륨에 두고 디스크 상한을 건다 | 승인 | lattae-alert |
-
-| [0014](0014-grounded-feed-visuals.md) | 피드 씬의 핵심 정보를 자료 이미지와 설명 그래픽으로 전달한다 | 제안 | lattae-feed |
+| [0014](0014-grounded-feed-visuals.md) | 피드 씬의 핵심 정보를 자료 이미지와 설명 그래픽으로 전달한다 | 폐기 (→ 0015) | lattae-feed |
+| [0015](0015-editorial-background-feed.md) | 전체 배경 이미지와 기사 핵심 자막 형식으로 피드를 개선한다 | 제안 | lattae-feed |
 
 ## 새 ADR 쓰는 법
 
@@ -47,4 +47,5 @@
 ## 결과
 좋아진 것, 감수한 것, 이후 해야 할 일.
 ```
+
 
