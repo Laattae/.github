@@ -19,6 +19,11 @@
 | [0011](0011-shared-config-repo.md) | 팀 공유 설정과 키는 비공개 environment 레포에 둔다 | 승인 | 전체 |
 | [0012](0012-tick-source.md) | 실시간 체결 원천: 시뮬레이터로 시작하고 KIS를 붙인다 | 제안 | lattae-alert |
 | [0013](0013-local-stack-durability.md) | 로컬 스택은 데이터를 볼륨에 두고 디스크 상한을 건다 | 승인 | lattae-alert |
+| [0017](0017-tag-dictionary-as-csv.md) | 종목 태그 사전은 CSV가 원본이고, 고칠 때는 후보 → 사람 승인을 거친다 | 승인 | StocksTag |
+| [0018](0018-tag-canonical-naming.md) | 태그 대표 표기는 뉴스에서 쓰는 말로 정한다 | 승인 | StocksTag |
+| [0019](0019-tag-concept-per-stock.md) | 여러 축에 붙은 같은 값은 지우지 않고, 종목당 한 개념으로 센다 | 승인 | StocksTag |
+| [0020](0020-tag-relations.md) | 태그 관계는 종류(is_a)와 원료(made_from)로 나눠 저장하고, 전파 규칙은 매칭 때 정한다 | 승인 | StocksTag |
+| [0021](0021-tag-stoplist-and-idf.md) | 정보 없는 태그는 적재하지 않고, 흔한 태그는 남기되 매칭에서 낮춘다 | 승인 | StocksTag |
 
 ## 새 ADR 쓰는 법
 
